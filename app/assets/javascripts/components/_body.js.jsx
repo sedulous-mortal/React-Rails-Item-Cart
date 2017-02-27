@@ -29,7 +29,7 @@ var Body = React.createClass({
             type: 'PUT', 
             data: { item: item }, 
             success: () => { 
-                console.log('you did it!!!'); 
+                console.log('Item updated!'); 
                 this.updateItems(item); 
                 // callback to swap objects in body 
                 } 
